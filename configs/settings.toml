@@ -1,0 +1,6 @@
+INSTALL_DIR = "/opt/myapp"
+LOGS_DIR = "@format {this.INSTALL_DIR}/logs"
+
+[ingest]
+BASE_PATH = "/opt/ingest"
+LOGS_DIR = "@format {this.ingest.BASE_PATH}/logs"
